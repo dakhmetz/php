@@ -1,0 +1,161 @@
+@media screen and ( max-width: 1241px )
+  html
+    font-size: 12px
+  .nav
+    &__item
+      margin-right: 1rem
+  .contacts
+    &__button
+      display: none
+@media screen and ( max-width: 1024px )
+  .row 
+    display: flex
+    align-items: flex-start
+    justify-content: center
+    flex-wrap: wrap
+  .col-30
+    flex-basis: 45%
+    margin-left: 1.5rem
+  .types
+    &__card
+      margin-bottom: 5rem
+  .card
+    &__text
+      margin-left: 0
+@media screen and ( max-width: 992px )
+  .nav
+    display: none
+  .hero
+    &__instagram
+      display: none
+    &__content
+      margin-left: 0
+@media screen and ( max-width: 760px )
+  .row
+    flex-direction: column
+    align-items: center
+  .types
+    &__card
+      margin-bottom: 5rem
+  .card
+    &__text
+      margin-left: 0
+  .projects
+    &__swiper
+      &-container
+        &--inside
+          display: block
+        &--outside
+          display: none
+  .col-50
+    width: 100%
+  .section
+    &-title
+      &__text
+        text-align: center
+        margin: 2rem auto
+      &--left
+        text-align: center
+      &__word
+        display: block
+        &::after
+          display: none
+  .footer
+    background: $dark
+    &__wrap
+      margin-top: 0
+      background-color: $dark
+    &__input-group
+      flex-basis: 100%
+    &__button
+      width: 100%
+  .policy__label--center
+    justify-content: flex-start
+  .design
+    padding-bottom: 0rem
+@media screen and ( max-width: 570px )
+  .contacts
+    &__phone
+      margin-right: 0
+      color: $light
+      text-transform: none
+    &__button
+      display: none
+  .title
+    font-size: 1.64rem
+  .hero
+    &__scroll-down
+      display: none
+    &__content
+      margin: 0 auto
+      width: 100%
+    &__title
+      font-size: 2rem
+      max-width: 30rem
+    &__text
+      font-size: 1.29rem
+      margin-bottom: 2.28rem
+      max-width: 22.7rem
+    &__button
+      display: block
+      width: 100%
+      margin-bottom: 1.85rem
+    &__button-outline
+      display: block
+      width: 100%
+      margin-bottom: 1.85rem
+
+  
+@media screen and ( max-height: 520px )
+  .hero
+    &__scroll-down
+      display: none
+
+
+@media screen and ( min-width: 760px )
+  .section
+    &-title
+      &__heading
+        &--light
+          color: $light
+      &__description
+        color: $light
+  .mrow
+    flex-direction: row
+    justify-content: center
+    align-items: baseline
+    flex-wrap: wrap
+  .mcard
+    flex-basis: 45%
+    margin-left: 1.5rem
+    &__text
+      position: relative
+      max-width: 23.6rem
+      margin: 0 auto
+      margin-top: -9rem
+      padding: 1.79rem 2.14rem
+      background-color: $light
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03)
+
+@media screen and ( min-width: 1024px )
+  .section
+    &-title
+      &__heading
+        &--light
+          color: $light
+      &__description
+        color: $light
+  .mrow
+    flex-direction: row
+    justify-content: space-between
+    align-items: baseline
+  .mcard
+    flex-basis: 30%
+    &__text
+      position: relative
+      max-width: 23.6rem
+      margin: 0 auto
+      margin-top: -9rem
+      padding: 1.79rem 2.14rem
+      background-color: $light
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03)
